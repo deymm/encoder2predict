@@ -32,13 +32,13 @@ python preprocess.py
 
 使用了RNN的Encoder层作为主体框架，包括：
 
-1.对输入序列进行Embedding
+> 1.对输入序列进行Embedding
 
-2.使用LSTM作为基本单元，构建多层Encoder层（这里用了两层前向神经网络）
+> 2.使用LSTM作为基本单元，构建多层Encoder层（这里用了两层前向神经网络）
 
-3.对输入的Embedding序列数据和LSTM进行随机失活(dropout)，防止过拟合
+> 3.对输入的Embedding序列数据和LSTM进行随机失活(dropout)，防止过拟合
 
-4.对Encoder最后层最后单元的隐藏层输出加一层NN层，通过sigmoid预测概率（类别）（相当于对最后隐层输出做了逻辑回归）
+> 4.对Encoder最后层最后单元的隐藏层输出加一层NN层，通过sigmoid预测概率（类别）（相当于对最后隐层输出做了逻辑回归）
 
 #### Step 3 数据读取
 
