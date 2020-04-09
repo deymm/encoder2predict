@@ -5,8 +5,6 @@
 
 实验数据集：因为数据的敏感性，所以这里用了评论情感分类数据作为测试数据([https://www.cs.cornell.edu/people/pabo/movie-review-data/](https://www.cs.cornell.edu/people/pabo/movie-review-data/) 上的[sentence polarity dataset v1.0](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)，包含正负面评论各5331条)
 
-具体说明详情可移步我的知乎专栏文章
-
 -------------------
 
 ## 使用说明
