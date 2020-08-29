@@ -6,6 +6,8 @@
 实验数据集：因为数据的敏感性，所以这里用了评论情感分类数据作为测试数据([https://www.cs.cornell.edu/people/pabo/movie-review-data/](https://www.cs.cornell.edu/people/pabo/movie-review-data/) 上的[sentence polarity dataset v1.0](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)，包含正负面评论各5331条)
 
 -------------------
+代码详细介绍请移步我的知乎文章：[Encoder2Predict代码详解](https://zhuanlan.zhihu.com/p/205174945)
+-------------------
 
 ## 使用说明
 #### Step 1 数据预处理
